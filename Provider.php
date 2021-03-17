@@ -90,4 +90,15 @@ class Provider extends AbstractProvider
             'grant_type' => 'authorization_code',
         ]);
     }
+    
+    /**
+     * {@inheritdoc}
+     */
+    protected function enablePKCE()
+    {
+        $this->usesPKCE = true;
+
+        return $this;
+    }
+
 }

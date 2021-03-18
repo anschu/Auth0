@@ -1,5 +1,5 @@
 {
-    "name": "anschu/auth0",
+    "name": "socialiteproviders/auth0",
     "description": "Auth0 OAuth2 Provider for Laravel Socialite",
     "license": "MIT",
     "authors": [

@@ -94,7 +94,7 @@ class Provider extends AbstractProvider
     /**
      * {@inheritdoc}
      */
-    protected function enablePKCE()
+    public function enablePKCE()
     {
         $this->usesPKCE = true;
 
